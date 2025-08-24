@@ -1,0 +1,52 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:0.2" />
+    </linearGradient>
+    <radialGradient id="radial1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1920" height="1080" fill="url(#gradient1)"/>
+  
+  <!-- Floating geometric shapes -->
+  <circle cx="1600" cy="200" r="150" fill="url(#radial1)" opacity="0.6"/>
+  <circle cx="200" cy="800" r="120" fill="url(#radial1)" opacity="0.4"/>
+  <circle cx="1800" cy="900" r="80" fill="url(#radial1)" opacity="0.5"/>
+  
+  <!-- Abstract geometric patterns -->
+  <polygon points="0,1080 400,800 800,1080" fill="url(#gradient2)" opacity="0.3"/>
+  <polygon points="1920,0 1520,300 1920,600" fill="url(#gradient3)" opacity="0.3"/>
+  
+  <!-- Grid pattern overlay -->
+  <defs>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grid)"/>
+  
+  <!-- Floating particles -->
+  <circle cx="300" cy="300" r="3" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="800" cy="150" r="2" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="1200" cy="400" r="4" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="1600" cy="600" r="2" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="400" cy="700" r="3" fill="rgba(255,255,255,0.4)"/>
+  <circle cx="1000" cy="800" r="2" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="1400" cy="200" r="3" fill="rgba(255,255,255,0.4)"/>
+  
+  <!-- Wave effect at bottom -->
+  <path d="M 0 1080 Q 480 980 960 1080 T 1920 1080 L 1920 1080 L 0 1080 Z" fill="rgba(255,255,255,0.1)"/>
+</svg>
