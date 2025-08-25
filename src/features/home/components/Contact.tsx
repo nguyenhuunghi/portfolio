@@ -26,11 +26,21 @@ export default function Contact() {
     // Show loading state
     setIsSubmitting(true);
 
-    // Simulate form submission (replace with actual API call)
     try {
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      // Show success state
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to send message');
+      }
+
       setIsSuccess(true);
       
       // Clear form
@@ -45,8 +55,8 @@ export default function Contact() {
       setTimeout(() => {
         setIsSuccess(false);
       }, 3000);
-    } catch (error) {
-      alert('Failed to send message. Please try again.');
+    } catch (error: any) {
+      alert(error.message || 'Failed to send message. Please try again.');
     } finally {
       setIsSubmitting(false);
     }
