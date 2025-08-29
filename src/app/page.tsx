@@ -1,9 +1,7 @@
-'use client';
-
 import dynamic from 'next/dynamic';
 import Hero from '@/features/home/components/Hero';
 import Features from '@/features/home/components/Features';
-import PerformanceMonitor from '@/features/shared/components/PerformanceMonitor';
+const PerformanceMonitor = dynamic(() => import('@/features/shared/components/PerformanceMonitor'), { ssr: false });
 
 // Lazy load components below the fold for better performance
 const LazyProjects = dynamic(() => import('@/features/home/components/Projects'), {

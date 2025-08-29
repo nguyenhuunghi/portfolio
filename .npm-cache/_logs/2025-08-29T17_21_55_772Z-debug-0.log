@@ -1,0 +1,263 @@
+0 verbose cli /home/ubuntu/.nvm/versions/node/v22.16.0/bin/node /home/ubuntu/.nvm/versions/node/v22.16.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspace/.npmrc
+5 silly config load:file:/home/ubuntu/.npmrc
+6 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.16.0/etc/npmrc
+7 verbose title npm install @next/bundle-analyzer@^14.2.15
+8 verbose argv "install" "--no-fund" "--no-audit" "--prefer-offline" "--cache" ".npm-cache" "@next/bundle-analyzer@^14.2.15"
+9 verbose logfile logs-max:10 dir:/workspace/.npm-cache/_logs/2025-08-29T17_21_55_772Z-
+10 verbose logfile /workspace/.npm-cache/_logs/2025-08-29T17_21_55_772Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest @next/bundle-analyzer@^14.2.15
+15 silly packumentCache full:https://registry.npmjs.org/@next%2fbundle-analyzer cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@next%2fbundle-analyzer 685ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@next%2fbundle-analyzer set size:undefined disposed:false
+18 silly placeDep ROOT @next/bundle-analyzer@14.2.32 OK for: portfolio@0.1.0 want: ^14.2.15
+19 silly fetch manifest webpack-bundle-analyzer@4.10.1
+20 silly packumentCache full:https://registry.npmjs.org/webpack-bundle-analyzer cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/webpack-bundle-analyzer 97ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/webpack-bundle-analyzer set size:undefined disposed:false
+23 silly placeDep ROOT webpack-bundle-analyzer@4.10.1 OK for: @next/bundle-analyzer@14.2.32 want: 4.10.1
+24 silly fetch manifest @discoveryjs/json-ext@0.5.7
+25 silly packumentCache full:https://registry.npmjs.org/@discoveryjs%2fjson-ext cache-miss
+26 silly fetch manifest acorn-walk@^8.0.0
+27 silly packumentCache full:https://registry.npmjs.org/acorn-walk cache-miss
+28 silly fetch manifest commander@^7.2.0
+29 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/acorn-walk 59ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/acorn-walk set size:undefined disposed:false
+32 silly fetch manifest debounce@^1.2.1
+33 silly packumentCache full:https://registry.npmjs.org/debounce cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/commander 77ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/commander set size:undefined disposed:false
+36 silly fetch manifest gzip-size@^6.0.0
+37 silly packumentCache full:https://registry.npmjs.org/gzip-size cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@discoveryjs%2fjson-ext 109ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@discoveryjs%2fjson-ext set size:undefined disposed:false
+40 silly fetch manifest is-plain-object@^5.0.0
+41 silly packumentCache full:https://registry.npmjs.org/is-plain-object cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/debounce 51ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/debounce set size:undefined disposed:false
+44 silly fetch manifest opener@^1.5.2
+45 silly packumentCache full:https://registry.npmjs.org/opener cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/gzip-size 41ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/gzip-size set size:undefined disposed:false
+48 silly fetch manifest sirv@^2.0.3
+49 silly packumentCache full:https://registry.npmjs.org/sirv cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/sirv 36ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/sirv set size:undefined disposed:false
+52 silly fetch manifest ws@^7.3.1
+53 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/is-plain-object 50ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/is-plain-object set size:undefined disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/opener 115ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/opener set size:undefined disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/ws 70ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+60 silly fetch manifest bufferutil@^4.0.1
+61 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/bufferutil 52ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+64 silly fetch manifest utf-8-validate@^5.0.2
+65 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 37ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+68 silly placeDep ROOT @discoveryjs/json-ext@0.5.7 OK for: webpack-bundle-analyzer@4.10.1 want: 0.5.7
+69 silly placeDep ROOT acorn-walk@8.3.4 OK for: webpack-bundle-analyzer@4.10.1 want: ^8.0.0
+70 silly placeDep node_modules/webpack-bundle-analyzer commander@7.2.0 OK for: webpack-bundle-analyzer@4.10.1 want: ^7.2.0
+71 silly placeDep ROOT debounce@1.2.1 OK for: webpack-bundle-analyzer@4.10.1 want: ^1.2.1
+72 silly placeDep ROOT gzip-size@6.0.0 OK for: webpack-bundle-analyzer@4.10.1 want: ^6.0.0
+73 silly placeDep ROOT is-plain-object@5.0.0 OK for: webpack-bundle-analyzer@4.10.1 want: ^5.0.0
+74 silly placeDep ROOT opener@1.5.2 OK for: webpack-bundle-analyzer@4.10.1 want: ^1.5.2
+75 silly placeDep ROOT sirv@2.0.4 OK for: webpack-bundle-analyzer@4.10.1 want: ^2.0.3
+76 silly placeDep node_modules/webpack-bundle-analyzer ws@7.5.10 OK for: webpack-bundle-analyzer@4.10.1 want: ^7.3.1
+77 silly fetch manifest duplexer@^0.1.2
+78 silly packumentCache full:https://registry.npmjs.org/duplexer cache-miss
+79 silly fetch manifest mrmime@^2.0.0
+80 silly packumentCache full:https://registry.npmjs.org/mrmime cache-miss
+81 silly fetch manifest totalist@^3.0.0
+82 silly packumentCache full:https://registry.npmjs.org/totalist cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/mrmime 46ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/mrmime set size:undefined disposed:false
+85 silly fetch manifest @polka/url@^1.0.0-next.24
+86 silly packumentCache full:https://registry.npmjs.org/@polka%2furl cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/duplexer 51ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/duplexer set size:undefined disposed:false
+89 http fetch GET 200 https://registry.npmjs.org/totalist 69ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/totalist set size:undefined disposed:false
+91 http fetch GET 200 https://registry.npmjs.org/@polka%2furl 65ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/@polka%2furl set size:undefined disposed:false
+93 silly placeDep ROOT duplexer@0.1.2 OK for: gzip-size@6.0.0 want: ^0.1.2
+94 silly placeDep ROOT @polka/url@1.0.0-next.29 OK for: sirv@2.0.4 want: ^1.0.0-next.24
+95 silly placeDep ROOT mrmime@2.0.1 OK for: sirv@2.0.4 want: ^2.0.0
+96 silly placeDep ROOT totalist@3.0.1 OK for: sirv@2.0.4 want: ^3.0.0
+97 silly reify moves {}
+98 verbose reify failed optional dependency /workspace/node_modules/fsevents
+99 silly reify mark deleted [ '/workspace/node_modules/fsevents' ]
+100 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-win32-x64-msvc
+101 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-win32-x64-msvc' ]
+102 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+103 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-win32-ia32-msvc' ]
+104 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+105 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-win32-arm64-msvc' ]
+106 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-wasm32-wasi
+107 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-wasm32-wasi' ]
+108 verbose reify failed optional dependency /workspace/node_modules/@napi-rs/wasm-runtime
+109 silly reify mark deleted [ '/workspace/node_modules/@napi-rs/wasm-runtime' ]
+110 verbose reify failed optional dependency /workspace/node_modules/@emnapi/core
+111 silly reify mark deleted [ '/workspace/node_modules/@emnapi/core' ]
+112 verbose reify failed optional dependency /workspace/node_modules/@emnapi/runtime
+113 silly reify mark deleted [ '/workspace/node_modules/@emnapi/runtime' ]
+114 verbose reify failed optional dependency /workspace/node_modules/@tybys/wasm-util
+115 silly reify mark deleted [ '/workspace/node_modules/@tybys/wasm-util' ]
+116 verbose reify failed optional dependency /workspace/node_modules/@emnapi/wasi-threads
+117 silly reify mark deleted [ '/workspace/node_modules/@emnapi/wasi-threads' ]
+118 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+119 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-linux-s390x-gnu' ]
+120 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+121 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-linux-riscv64-musl' ]
+122 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+123 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-linux-riscv64-gnu' ]
+124 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+125 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-linux-ppc64-gnu' ]
+126 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-arm64-musl
+127 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-linux-arm64-musl' ]
+128 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+129 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-linux-arm64-gnu' ]
+130 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+131 silly reify mark deleted [
+131 silly reify   '/workspace/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+131 silly reify ]
+132 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+133 silly reify mark deleted [
+133 silly reify   '/workspace/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+133 silly reify ]
+134 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-freebsd-x64
+135 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-freebsd-x64' ]
+136 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-darwin-x64
+137 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-darwin-x64' ]
+138 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-darwin-arm64
+139 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-darwin-arm64' ]
+140 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-android-arm64
+141 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-android-arm64' ]
+142 verbose reify failed optional dependency /workspace/node_modules/@unrs/resolver-binding-android-arm-eabi
+143 silly reify mark deleted [ '/workspace/node_modules/@unrs/resolver-binding-android-arm-eabi' ]
+144 verbose reify failed optional dependency /workspace/node_modules/@next/swc-win32-x64-msvc
+145 silly reify mark deleted [ '/workspace/node_modules/@next/swc-win32-x64-msvc' ]
+146 verbose reify failed optional dependency /workspace/node_modules/@next/swc-win32-ia32-msvc
+147 silly reify mark deleted [ '/workspace/node_modules/@next/swc-win32-ia32-msvc' ]
+148 verbose reify failed optional dependency /workspace/node_modules/@next/swc-win32-arm64-msvc
+149 silly reify mark deleted [ '/workspace/node_modules/@next/swc-win32-arm64-msvc' ]
+150 verbose reify failed optional dependency /workspace/node_modules/@next/swc-linux-arm64-musl
+151 silly reify mark deleted [ '/workspace/node_modules/@next/swc-linux-arm64-musl' ]
+152 verbose reify failed optional dependency /workspace/node_modules/@next/swc-linux-arm64-gnu
+153 silly reify mark deleted [ '/workspace/node_modules/@next/swc-linux-arm64-gnu' ]
+154 verbose reify failed optional dependency /workspace/node_modules/@next/swc-darwin-x64
+155 silly reify mark deleted [ '/workspace/node_modules/@next/swc-darwin-x64' ]
+156 verbose reify failed optional dependency /workspace/node_modules/@next/swc-darwin-arm64
+157 silly reify mark deleted [ '/workspace/node_modules/@next/swc-darwin-arm64' ]
+158 http cache mrmime@https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz 0ms (cache hit)
+159 http cache duplexer@https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz 0ms (cache hit)
+160 http cache @polka/url@https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.29.tgz 0ms (cache hit)
+161 http cache totalist@https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz 1ms (cache hit)
+162 http cache sirv@https://registry.npmjs.org/sirv/-/sirv-2.0.4.tgz 0ms (cache hit)
+163 http cache debounce@https://registry.npmjs.org/debounce/-/debounce-1.2.1.tgz 0ms (cache hit)
+164 http cache is-plain-object@https://registry.npmjs.org/is-plain-object/-/is-plain-object-5.0.0.tgz 0ms (cache hit)
+165 http cache opener@https://registry.npmjs.org/opener/-/opener-1.5.2.tgz 0ms (cache hit)
+166 http cache acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.4.tgz 0ms (cache hit)
+167 http cache @discoveryjs/json-ext@https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz 0ms (cache hit)
+168 http cache webpack-bundle-analyzer@https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.10.1.tgz 0ms (cache hit)
+169 http cache @next/bundle-analyzer@https://registry.npmjs.org/@next/bundle-analyzer/-/bundle-analyzer-14.2.32.tgz 0ms (cache hit)
+170 http cache @napi-rs/wasm-runtime@https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-0.2.12.tgz 0ms (cache hit)
+171 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.0.tgz 0ms (cache hit)
+172 http cache @emnapi/wasi-threads@https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.0.4.tgz 0ms (cache hit)
+173 http cache ws@https://registry.npmjs.org/ws/-/ws-7.5.10.tgz 0ms (cache hit)
+174 http cache @emnapi/core@https://registry.npmjs.org/@emnapi/core/-/core-1.4.5.tgz 0ms (cache hit)
+175 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.4.5.tgz 0ms (cache hit)
+176 http cache gzip-size@https://registry.npmjs.org/gzip-size/-/gzip-size-6.0.0.tgz 0ms (cache hit)
+177 http cache commander@https://registry.npmjs.org/commander/-/commander-7.2.0.tgz 0ms (cache hit)
+178 silly tarball no local data for mrmime@https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz. Extracting by manifest.
+179 silly tarball no local data for duplexer@https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz. Extracting by manifest.
+180 silly tarball no local data for @polka/url@https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.29.tgz. Extracting by manifest.
+181 silly tarball no local data for totalist@https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz. Extracting by manifest.
+182 silly tarball no local data for sirv@https://registry.npmjs.org/sirv/-/sirv-2.0.4.tgz. Extracting by manifest.
+183 silly tarball no local data for debounce@https://registry.npmjs.org/debounce/-/debounce-1.2.1.tgz. Extracting by manifest.
+184 silly tarball no local data for is-plain-object@https://registry.npmjs.org/is-plain-object/-/is-plain-object-5.0.0.tgz. Extracting by manifest.
+185 silly tarball no local data for opener@https://registry.npmjs.org/opener/-/opener-1.5.2.tgz. Extracting by manifest.
+186 silly tarball no local data for acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.4.tgz. Extracting by manifest.
+187 silly tarball no local data for @discoveryjs/json-ext@https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz. Extracting by manifest.
+188 silly tarball no local data for webpack-bundle-analyzer@https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.10.1.tgz. Extracting by manifest.
+189 silly tarball no local data for @next/bundle-analyzer@https://registry.npmjs.org/@next/bundle-analyzer/-/bundle-analyzer-14.2.32.tgz. Extracting by manifest.
+190 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-7.5.10.tgz. Extracting by manifest.
+191 silly tarball no local data for gzip-size@https://registry.npmjs.org/gzip-size/-/gzip-size-6.0.0.tgz. Extracting by manifest.
+192 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-7.2.0.tgz. Extracting by manifest.
+193 http fetch GET 200 https://registry.npmjs.org/duplexer/-/duplexer-0.1.2.tgz 83ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz 83ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.29.tgz 83ms (cache miss)
+196 http fetch GET 200 https://registry.npmjs.org/debounce/-/debounce-1.2.1.tgz 91ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/opener/-/opener-1.5.2.tgz 96ms (cache miss)
+198 http fetch GET 200 https://registry.npmjs.org/gzip-size/-/gzip-size-6.0.0.tgz 119ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/is-plain-object/-/is-plain-object-5.0.0.tgz 124ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/@next/bundle-analyzer/-/bundle-analyzer-14.2.32.tgz 123ms (cache miss)
+201 http fetch GET 200 https://registry.npmjs.org/sirv/-/sirv-2.0.4.tgz 127ms (cache miss)
+202 http fetch GET 200 https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz 129ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-7.2.0.tgz 127ms (cache miss)
+204 http fetch GET 200 https://registry.npmjs.org/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz 132ms (cache miss)
+205 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-7.5.10.tgz 132ms (cache miss)
+206 http fetch GET 200 https://registry.npmjs.org/webpack-bundle-analyzer/-/webpack-bundle-analyzer-4.10.1.tgz 140ms (cache miss)
+207 http fetch GET 200 https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.4.tgz 209ms (cache miss)
+208 silly ADD node_modules/totalist
+209 silly ADD node_modules/mrmime
+210 silly ADD node_modules/@polka/url
+211 silly ADD node_modules/duplexer
+212 silly ADD node_modules/sirv
+213 silly ADD node_modules/opener
+214 silly ADD node_modules/is-plain-object
+215 silly ADD node_modules/gzip-size
+216 silly ADD node_modules/debounce
+217 silly ADD node_modules/acorn-walk
+218 silly ADD node_modules/@discoveryjs/json-ext
+219 silly ADD node_modules/webpack-bundle-analyzer
+220 silly ADD node_modules/webpack-bundle-analyzer/node_modules/ws
+221 silly ADD node_modules/webpack-bundle-analyzer/node_modules/commander
+222 silly ADD node_modules/@next/bundle-analyzer
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly ADD
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly ADD
+245 silly ADD
+246 silly ADD
+247 silly ADD
+248 silly ADD
+249 silly ADD
+250 silly ADD
+251 silly ADD
+252 silly ADD
+253 verbose cwd /workspace
+254 verbose os Linux 6.1.147
+255 verbose node v22.16.0
+256 verbose npm  v10.9.2
+257 verbose exit 0
+258 info ok

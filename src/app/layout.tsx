@@ -23,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={interFont.variable}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+      </head>
       <body>
         <ScrollProgress />
         <Navigation />

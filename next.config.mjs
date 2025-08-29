@@ -1,3 +1,7 @@
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const withBundleAnalyzer = require('@next/bundle-analyzer')({ enabled: process.env.ANALYZE === 'true' });
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Enable experimental features for better performance
@@ -56,6 +60,24 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/images/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/fonts/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
     ];
   },
 
@@ -77,6 +99,10 @@ const nextConfig = {
 
     return config;
   },
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error'] } : false,
+  },
+  output: 'standalone',
 };
 
-export default nextConfig;
+export default withBundleAnalyzer(nextConfig);

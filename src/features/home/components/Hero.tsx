@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import ParticleBackground from '@/features/shared/components/ParticleBackground';
+import dynamic from 'next/dynamic';
+const ParticleBackground = dynamic(() => import('@/features/shared/components/ParticleBackground'), { ssr: false });
 
 export default function Hero() {
   return (
