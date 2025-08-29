@@ -1,5 +1,3 @@
-'use client';
-
 import dynamic from 'next/dynamic';
 import Hero from '@/features/home/components/Hero';
 import Features from '@/features/home/components/Features';

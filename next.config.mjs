@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+import createBundleAnalyzer from '@next/bundle-analyzer';
+
+const withBundleAnalyzer = createBundleAnalyzer({
+  enabled: process.env.BUNDLE_ANALYZE === 'true',
+});
+
+const nextConfig = withBundleAnalyzer({
   // Enable experimental features for better performance
   experimental: {
     optimizePackageImports: ['react', 'react-dom'],
@@ -77,6 +83,6 @@ const nextConfig = {
 
     return config;
   },
-};
+});
 
 export default nextConfig;
